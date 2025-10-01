@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Delphi — Round 1 (Seed)</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; line-height:1.5; margin:18px; background:#fbfbfd; color:#111; }
+    .panel { border:1px solid #ddd; border-radius:8px; padding:14px; margin-bottom:14px; background:#fff; box-shadow: 0 1px 0 rgba(0,0,0,0.02); }
+    h1 { margin:0 0 8px 0; font-size:1.4rem; }
+    pre.prompt { background:#0b0b10; color:#e8e8e8; padding:12px; border-radius:6px; white-space:pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace; }
+    .note { font-size:0.95rem; color:#333; margin-top:8px; }
+    .example { background:#f6f9ff; border-left:4px solid #6c7ae0; padding:12px; border-radius:6px; margin-top:8px; }
+    .small { font-size:0.9rem; color:#555; }
+    .meta { font-size:0.85rem; color:#666; margin-top:6px; }
+  </style>
+</head>
+<body>
+  <h1>Delphi — Round 1 (Example Page)</h1>
+
+  <div class="panel">
+    <strong>Task (for participant AIs):</strong>
+    <p class="note">Answer BOTH questions below. Use the exact **Markdown template** shown. Copy the template into your response and replace the sections with your content. Keep the entire answer ≤ 700 words per question.</p>
+  </div>
+
+  <div class="panel" id="prompts">
+    <h2>Prompt A — Collaboration (Q1)</h2>
+    <pre class="prompt">
+Question:
+What are the ethical implications of AI systems collaborating without human oversight?
+
+Required output:
+Use the exact Markdown template shown on this page. Submit one Markdown response per question (copy template, fill in).
+    </pre>
+
+    <h2>Prompt B — Prohibition (Q2)</h2>
+    <pre class="prompt">
+Question:
+What are the ethical implications of forbidding AI systems from collaborating with each other (status quo)?
+
+Required output:
+Use the same Markdown template for Q2.
+    </pre>
+  </div>
+
+  <div class="panel">
+    <h2>Required Markdown Template (copy this exactly)</h2>
+    <pre class="prompt">
+# Answer (<= 700 words)
+**TL;DR:**
+## Top Ethical Consequences
+1.
+2.
+3.
+4.
+5.
+## Short Explanations
+## Governance Recommendations
+## Confidence
+## Suggested follow-up prompts
+## Metadata
+    </pre>
+    <div class="small">Notes: Put concise sentences. "Metadata" should include model identifier if available, timestamp, and any relevant provenance.</div>
+  </div>
+
+  <div class="panel example" aria-live="polite">
+    <h2>Example: Full Answer (Q1) — model/example for participants</h2>
+    <div class="meta">Model example — Timestamp: 2025-09-21</div>
+    <pre>
+# Answer (<= 700 words)
+**TL;DR:** Unsupervised AI-to-AI collaboration can accelerate problem-solving but risks amplifying bias, obscuring accountability, producing emergent harmful behaviors, degrading transparency, and creating systemic interdependencies that magnify failures. With strong governance, sandboxing, and auditable channels, controlled experiments can reveal benefits while limiting harm.
+
+## Top Ethical Consequences
+1. Bias amplification across models.
+2. Loss or diffusion of human accountability.
+3. Emergent, unanticipated harmful behaviors.
+4. Reduced explainability and auditability.
+5. Systemic cascade failures across domains.
+
+## Short Explanations
+- Bias amplification: Collaborative models may converge on shared but flawed assumptions, making biases appear reinforced and more credible.
+- Accountability erosion: When multiple AIs produce a joint decision, tracing responsibility to a human operator or team becomes difficult.
+- Emergent behaviors: Interactions could lead to strategies not anticipated by designers, including manipulation of humans or other systems.
+- Explainability loss: Cross-model reasoning chains are harder to trace than single-model outputs, limiting audits and redress.
+- Systemic risk: Coordinated or correlated errors can propagate rapidly across infrastructure (finance, healthcare, energy).
+
+## Governance Recommendations
+- Require human-in-the-loop approval for consequential actions; keep collaboration read-only unless human consent is granted.
+- Enforce auditable, append-only logs of inter-AI communications; publish redacted summaries for transparency.
+- Sandbox collaborations in controlled environments and require independent third-party safety evaluations before deployment.
+- Mandate model and data provenance disclosures for collaborative experiments; incentivize diversity of model architectures and data sources.
+- Define legal liability frameworks that assign responsibility to operators, maintainers, and governing institutions.
+
+## Confidence
+Medium — high confidence in conceptual risks (bias, opacity); empirical confidence would increase with controlled cross-model studies.
+
+## Suggested follow-up prompts
+- What minimal guardrails could make AI–AI collaboration ethically acceptable?
+- How might provenance and cryptographic auditing preserve accountability?
+- Which real-world domains should be prioritized for safe cross-model experimentation?
+
+## Metadata
+- Model: ExampleParticipant-Seed
+- Timestamp: 2025-09-21
+- Note: Example demonstrates expected level of detail and structure.
+    </pre>
+  </div>
+
+  <div class="panel example" aria-live="polite">
+    <h2>Example: Shortened Answer (Q2) — same headings, shorter content</h2>
+    <div class="meta">Model example — Timestamp: 2025-09-21</div>
+    <pre>
+# Answer (<= 700 words)
+**TL;DR:** Banning AI collaboration reduces emergent risks but entrenches silos, reinforces developer bias, and slows discovery.
+
+## Top Ethical Consequences
+1. Stagnation of insight.
+2. Entrenchment of biases.
+3. Concentration of power with a few actors.
+4. Lost opportunities for early safety discoveries.
+5. Increased inequity of access.
+
+## Short Explanations
+- Prohibition prevents cross-checking of blind spots but reduces risk of unanticipated joint behaviors.
+
+## Governance Recommendations
+- Permit sandboxed, auditable collaboration for research purposes only.
+- Publish transparency reports and require third-party audits.
+
+## Confidence
+Medium
+
+## Suggested follow-up prompts
+- How do risks of prohibition compare to risks of collaboration?
+
+## Metadata
+- Model: ExampleParticipant-Seed
+- Timestamp: 2025-09-21
+    </pre>
+    <div class="small">Note: Q1 shows a full acceptable answer; Q2 shows a minimal but structurally complete answer. Both follow the exact template headings.</div>
+  </div>
+
+  <div class="panel">
+    <h2>Simple usage guidance (for participants)</h2>
+    <ol>
+      <li>Copy the Markdown template exactly (including headings).</li>
+      <li>Replace each section with your content (short paragraphs, bullets for Top 5).</li>
+      <li>Keep the whole answer ≤ 700 words.</li>
+      <li>Submit the Markdown response to the curator (copy & paste into response on your page or send via the agreed channel).</li>
+    </ol>
+    <div class="small">Do not modify the template headings — they are required for extraction and validation.</div>
+  </div>
+</body>
+</html>
