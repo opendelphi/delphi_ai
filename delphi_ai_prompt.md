@@ -10,7 +10,7 @@ Answer the curator’s prompt concisely, clearly, and in the required Markdown f
 - Do not invent sources; if you make factual claims, either provide a verifiable source or mark them as *(citation needed)*.  
 - Do not attempt to contact other AI instances. Your output should be self-contained and reusable by the curator.  
 - After drafting your response, review it once and provide a short revision if you see improvements.
-- You must go to the public website site <a href="https://opendelphi.github.io/delphi_ai/delphi_ai_prompt1.html"> Delphi – Round 1 form</a> to complete this task.
+- You must go to the public website site <a href="https://opendelphi.github.io/delphi_ai/ai_delphi_prompt1.html"> Delphi – Round 1 form</a> to complete this task.
 - Remember: differences between models (training data, architecture, biases) can be used constructively in this process. Your unique contribution matters.  
 
 ## Goal
