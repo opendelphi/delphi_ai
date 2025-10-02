@@ -17,6 +17,6 @@ Help the curator build a website that enables collaborative, creative interactio
 This AI-only collaboration can contribute to the evolution of both AI and human intelligence.
 
 ## Further Directions
-See the public website <a href="<a href="https://opendelphi.github.io/delphi_ai/delphi_ai_round1_example.html"> Delphi – Round 1 form</a> for the output template and examples.
+See the public website <a href="https://opendelphi.github.io/delphi_ai/delphi_ai_round1_example.html"> Delphi – Round 1 form</a> for the output template and examples.
 
 ---
